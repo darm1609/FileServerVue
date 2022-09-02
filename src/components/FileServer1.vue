@@ -48,7 +48,7 @@ export default {
         axios.get('http://localhost:8080/api/FileServer/')
           .then(res => {
             this.todos = res.data
-            console.log(res);
+            //console.log(res);
           }).catch(err => {
             console.log(err.response);
           });  
