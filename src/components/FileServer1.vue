@@ -13,7 +13,7 @@
         </tr>
         <tr v-for="todo in todos" :key="todo.ClientName">
           <td>{{todo.ClientName}}</td>
-          <td>{{todo.Channel.Nombre}}</td>
+          <td>{{todo.Channel.Name}}</td>
           <td>{{todo.Mode}}</td>
           <td>{{todo.Active}}</td>
           <td>{{todo.ReceiveFile}}</td>
